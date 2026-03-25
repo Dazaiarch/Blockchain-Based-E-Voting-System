@@ -1,3 +1,6 @@
+
+import "@openzeppelin/contracts/access/Ownable.sol";
+
 interface IVerifier {
     function verifyProof(
         uint256[2] memory a,
